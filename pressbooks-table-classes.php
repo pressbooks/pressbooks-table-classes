@@ -86,21 +86,21 @@ function pressbooks_table_classes_init() {
 
 function table_classes_render( $args ) {
 	$options = get_option( 'pressbooks_table_classes' ); ?>
-	<input type='text' name='pressbooks_table_classes[table_classes]' value='<?php echo $options['table_classes']; ?>' class='regular-text'>
+	<input type='text' name='pressbooks_table_classes[table_classes]' value='<?php echo @$options['table_classes']; ?>' class='regular-text'>
 	<p class='description'><?php echo $args[0]; ?></p>
 <?php }
 
 
 function cell_classes_render( $args ) {
 	$options = get_option( 'pressbooks_table_classes' ); ?>
-	<input type='text' name='pressbooks_table_classes[cell_classes]' value='<?php echo $options['cell_classes']; ?>' class='regular-text'>
+	<input type='text' name='pressbooks_table_classes[cell_classes]' value='<?php echo @$options['cell_classes']; ?>' class='regular-text'>
 	<p class='description'><?php echo $args[0]; ?></p>
 <?php }
 
 
 function row_classes_render( $args ) {
 	$options = get_option( 'pressbooks_table_classes' ); ?>
-	<input type='text' name='pressbooks_table_classes[row_classes]' value='<?php echo $options['row_classes']; ?>' class='regular-text'>
+	<input type='text' name='pressbooks_table_classes[row_classes]' value='<?php echo @$options['row_classes']; ?>' class='regular-text'>
 	<p class='description'><?php echo $args[0]; ?></p>
 <?php }
 

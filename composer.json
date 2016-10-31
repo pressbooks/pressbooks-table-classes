@@ -23,6 +23,7 @@
         ".gitignore",
         ".travis.yml",
         ".DS_Store",
+        ".tx",
         "bin",
         "composer.json",
         "composer.lock",
