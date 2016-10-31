@@ -1,0 +1,51 @@
+{
+    "name": "pressbooks/pressbooks-table-classes",
+    "description": "Add custom table, cell and row classes to the Pressbooks table editor.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Pressbooks",
+            "email": "code@pressbooks.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "~5.5",
+      "squizlabs/php_codesniffer": "^2.7",
+      "wp-coding-standards/wpcs": "^0.10"
+    },
+    "archive" : {
+      "exclude": [
+        ".distignore",
+        ".editorconfig",
+        ".git",
+        ".gitignore",
+        ".travis.yml",
+        ".DS_Store",
+        "bin",
+        "composer.json",
+        "composer.lock",
+        "Gruntfile.js",
+        "package.json",
+        "yarn.lock",
+        "phpunit.xml",
+        "phpcs.xml",
+        "README.md",
+        "tests",
+        "vendor",
+        "node_modules"
+      ]
+    },
+    "scripts": {
+      "test": [
+        "vendor/bin/phpunit --configuration phpunit.xml --coverage-clover coverage.xml",
+        "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+        "vendor/bin/phpcs --standard=phpcs.xml --extensions=php ."
+      ],
+      "standards": [
+        "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+        "vendor/bin/phpcs --standard=phpcs.xml --extensions=php ."
+      ]
+    }
+}
