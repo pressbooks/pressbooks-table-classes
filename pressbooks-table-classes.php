@@ -182,3 +182,11 @@ function pb_tc_row_classes( $classes ) {
 add_filter( 'pressbooks_editor_table_classes', 'pb_tc_table_classes' );
 add_filter( 'pressbooks_editor_cell_classes', 'pb_tc_cell_classes' );
 add_filter( 'pressbooks_editor_row_classes', 'pb_tc_row_classes' );
+
+function pb_tc_load_textdomain() {
+	$locale = apply_filters( 'plugin_locale', get_locale(), 'pressbooks-table-classes' );
+	load_textdomain( 'pressbooks-table-classes', WP_LANG_DIR . '/pressbooks-table-classes/pressbooks-table-classes-' . $locale . '.mo' );
+	load_plugin_textdomain( 'pressbooks-table-classes', false, 'pressbooks-table-classes/languages' );
+}
+
+add_action( 'init', 'pb_tc_load_textdomain' );

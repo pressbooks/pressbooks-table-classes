@@ -2,13 +2,14 @@
 # This file is distributed under the GPLv2.
 # Translators:
 # Hugh McGuire <hugh@pressbooks.com>, 2016
+# Thomas Dumm <t.dumm@delivros.ch>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Pressbooks Table Classes 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pressbooks-table-classes\n"
 "POT-Creation-Date: 2016-10-31 12:54:22+00:00\n"
 "PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Hugh McGuire <hugh@pressbooks.com>, 2016\n"
+"Last-Translator: Thomas Dumm <t.dumm@delivros.ch>, 2016\n"
 "Language-Team: German (Switzerland) (https://www.transifex.com/pressbooks/teams/68747/de_CH/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -26,36 +27,40 @@ msgstr ""
 
 #: pressbooks-table-classes.php:27
 msgid "Cannot find Pressbooks install."
-msgstr ""
+msgstr "Die Pressbooks-Installation wurde nicht gefunden."
 
 #: pressbooks-table-classes.php:40 pressbooks-table-classes.php:49
 msgid "Table Classes"
-msgstr ""
+msgstr "Tabellen-Klassen"
 
 #: pressbooks-table-classes.php:56
 msgid "Custom Table Classes"
-msgstr ""
+msgstr "Massgeschneiderte Tabellen-Klassen"
 
 #: pressbooks-table-classes.php:61 pressbooks-table-classes.php:72
 #: pressbooks-table-classes.php:83
 msgid "Class names must be comma-separated and cannot contain spaces."
 msgstr ""
+"Klassen-Namen müssen durch Kommas getrennt werden und dürfen keine "
+"Leerzeichen enthalten"
 
 #: pressbooks-table-classes.php:67
 msgid "Custom Cell Classes"
-msgstr ""
+msgstr "Massgeschneiderte Zellen-Klassen"
 
 #: pressbooks-table-classes.php:78
 msgid "Custom Row Classes"
-msgstr ""
+msgstr "Massgeschneiderte Zeilen-Klassen"
 
 #: pressbooks-table-classes.php:109
 msgid "Add custom table, cell and row classes for the table editor below."
 msgstr ""
+"Massgeschneiderte Klassen für Tabellen, Zeilen und Zellen für den Tabellen-"
+"Editor hinzufügen"
 
 #. Plugin Name of the plugin/theme
 msgid "Pressbooks Table Classes"
-msgstr ""
+msgstr "Pressbooks Tabellen-Klassen"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/pressbooks/pressbooks-table-classes"
@@ -63,7 +68,7 @@ msgstr "https://github.com/pressbooks/pressbooks-table-classes"
 
 #. Description of the plugin/theme
 msgid "Add custom classes to the Pressbooks table editor."
-msgstr ""
+msgstr "Massgeschneiderte Klassen zum Tabellen-Editor hinzufügen"
 
 #. Author of the plugin/theme
 msgid "Pressbooks"
