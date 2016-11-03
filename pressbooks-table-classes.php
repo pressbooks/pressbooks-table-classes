@@ -8,7 +8,7 @@
  * Text Domain:     pressbooks-table-classes
  * Domain Path:     /languages
  * Version:         1.0.0
- * License:					GPLv2
+ * License:	    GPLv2
  * GitHub Plugin URI: https://github.com/pressbooks/pressbooks-table-classes
  *
  * @package         Pressbooks_Table_Classes
